@@ -257,6 +257,11 @@ body {
     border-radius: 8px;
     background-color: #001A47;
     transition: background-color 600ms ease-in;
+    text-align: center;
+}
+
+.item-second-block:hover .icon_tr_3 {
+    fill: #001A47; 
 }
 
 .item-second-block:hover {
@@ -301,6 +306,7 @@ body {
     margin-left: 45%;
     margin-top: 40px;
     max-width: fit-content;
+    margin-top: 15%;
 }
 
 .calculation-second-block span {
@@ -321,61 +327,36 @@ body {
     height: 27px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url("images/blue-arrow.svg");
     transition: background-image 600ms ease-in;
 }
 
-.item-second-block:hover .arrow-img {
-    background-image: url("images/black-arrow.svg");
+.icon_tr_3{
+    margin-top: 10%;
+    justify-content: center;
+    fill: #97CADB; 
+    transition: fill 0.6s ease-in;
 }
 
-#image-1 {
-    background-image: url('images/lship-blue.svg');
-}
+@keyframes rotateArrow {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(45deg);
+    }
+  }
 
-.item-second-block:hover #image-1 {
-    background-image: url('images/lship-black.svg');
-}
+  .arrow {
+    transition: transform 0.6s ease-in;
+    transition: fill 0.6s ease-in;
+    fill: #97CADB;
+  }
 
-#image-2 {
-    background-image: url('images/blue-blocks.svg');
-}
-
-.item-second-block:hover #image-2 {
-    background-image: url('images/black-blocks.svg');
-}
-
-#image-3 {
-    background-image: url('images/train-blue.svg');
-}
-
-.item-second-block:hover #image-3 {
-    background-image: url('images/train-black.svg');
-}
-
-#image-4 {
-    background-image: url('images/plane-blue.svg');
-}
-
-.item-second-block:hover #image-4 {
-    background-image: url('images/plane-black.svg');
-}
-
-#image-5 {
-    background-image: url('images/track-blue.svg');
-}
-
-.item-second-block:hover #image-5 {
-    background-image: url('images/track-black.svg');
-}
-
-#image-6 {
-    background-image: url('images/doc-blue.svg');
-}
-
-.item-second-block:hover #image-6 {
-    background-image: url('images/doc-black.svg');
-}
+  .item-second-block:hover .arrow {
+    animation: rotateArrow 1s linear forwards;
+    transition: fill 0.6s ease-in;
+    fill: #001A47;
+  }
 
 .back_text_1{
     font-size: 140px;
