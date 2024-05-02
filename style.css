@@ -266,7 +266,7 @@ body {
 }
 
 .item-second-block:hover .icon_tr_3 {
-    fill: #001A47; 
+    fill: #001A47;
 }
 
 .item-second-block:hover {
@@ -335,43 +335,45 @@ body {
     transition: background-image 600ms ease-in;
 }
 
-.icon_tr_3{
+.icon_tr_3 {
     margin-top: 10%;
     justify-content: center;
-    fill: #97CADB; 
+    fill: #97CADB;
     transition: fill 0.6s ease-in;
 }
 
 @keyframes rotateArrow {
     from {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
+
     to {
-      transform: rotate(45deg);
+        transform: rotate(45deg);
     }
-  }
+}
 
 @keyframes rotateBack {
     from {
         transform: rotate(45deg);
-      }
-      to {
+    }
+
+    to {
         transform: rotate(0deg);
-      }
+    }
 }
 
-  .arrow {
+.arrow {
     animation: rotateBack 1s linear forwards;
     transition: transform 0.6s ease-in;
     transition: fill 0.6s ease-in;
     fill: #97CADB;
-  }
+}
 
-  .item-second-block:hover .arrow {
+.item-second-block:hover .arrow {
     animation: rotateArrow 1s linear forwards;
     transition: fill 0.6s ease-in;
     fill: #001A47;
-  }
+}
 
 .back_text_1 {
     font-size: 140px;
@@ -594,4 +596,60 @@ body {
 
 #image-4-4 {
     background-image: url('images/plane1.svg');
+}
+
+#long-transport-block {
+    height: 340px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 15px;
+    gap: 5px;
+}
+
+.vehicle-transport-block {
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.description-transport-block {
+    width: 379px;
+    height: 313px;
+    display: inline-block;
+}
+
+.description-transport-block>h1 {
+    margin-left: 60px;
+    font-size: calc(48 * var(--ratio));
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.description-transport-block>div {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.description-transport-block>div>p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.description-transport-block>div>p:nth-child(odd) {
+    color: #828282;
+    font-size: calc(16 * var(--ratio));
+}
+
+.description-transport-block>div>p:nth-child(even) {
+    color: #393939;
+    font-size: calc(22 * var(--ratio));
+}
+
+.p-transport-block,
+.h1-transport-block,
+.img-transport-block {
+    transition: opacity 0.5s ease-in-out;
 }
