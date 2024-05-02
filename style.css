@@ -126,6 +126,7 @@
 
 
 #button-first-block {
+    position: relative;
     border: none;
     display: block;
     background: none;
@@ -140,10 +141,46 @@
     font-size: calc(20 * var(--ratio));
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-
     text-decoration: none;
     text-transform: none;
     letter-spacing: calc(0.6000000238418579 * var(--ratio));
     line-height: calc(20 * var(--ratio));
     color: #FFF;
+}
+
+#empty-first-block {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: 330px;
+    width: calc(653px - 33px);
+    padding: 15px;
+    gap: 25px;
+    position: relative;
+    margin-left: 33px;
+    margin-top: 60px;
+}
+
+#empty-first-block div {
+    border: none;
+    background-color: #FFF;
+    border-radius: 6px;
+    height: 50px;
+
+    font-size: calc(16 * var(--ratio));
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: calc(0.6000000238418579 * var(--ratio));
+    line-height: calc(20 * var(--ratio));
+    color: #000;
+
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
