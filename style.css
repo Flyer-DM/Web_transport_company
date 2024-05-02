@@ -653,3 +653,85 @@ body {
 .img-transport-block {
     transition: opacity 0.5s ease-in-out;
 }
+
+.six_big_bg{
+    background-color: #008ABE26;
+    width: 971.6px;
+    height: 553.19px;
+    border-radius: 8px;
+}
+
+.angry-grid-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 0px;
+    height: 100%;
+}
+
+.angry-grid-item-2 {
+    min-width: 550px;
+    min-height: 300px;
+}
+
+#item-0-2 {
+    margin-left: -10%;
+    margin-top: 6%;
+
+    grid-row-start: 1;
+    grid-column-start: 1;
+
+    grid-row-end: 2;
+    grid-column-end: 2;
+
+}
+
+#item-1-2 {
+
+    grid-row-start: 1;
+    grid-column-start: 1;
+
+    grid-row-end: 2;
+    grid-column-end: 3;
+
+}
+
+.six_small_text{
+    width: 339.19px;
+    height: 25.76px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0.47999998927116394px;
+    color: #001C47;
+    margin-left: 10%;
+}
+
+
+:focus{outline: none;}
+.input_six{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    border: 1px solid #E2E2E2; 
+    border-radius: 6px; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.submit-button_six {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF; /* белый цвет текста */
+    background-color: #068ABE; /* синий фон */
+    border: none;
+    border-radius: 9px; /* закругленные углы */
+    padding: 10px 20px; /* внутренний отступ по вертикали и горизонтали */
+    cursor: pointer; /* изменение курсора при наведении */
+    transition: background-color 0.3s; /* плавное изменение цвета фона */
+}
+
+.submit-button_six:hover {
+    background-color: #0075a3; /* изменение цвета фона при наведении */
+}
