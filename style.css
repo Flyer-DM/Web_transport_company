@@ -1,0 +1,149 @@
+:root {
+    --custom-width: min(1440px, 100vw);
+    --design-width: 1440;
+    --ratio: calc(var(--custom-width) / var(--design-width));
+}
+
+#first-block {
+    top: 95px;
+    position: relative;
+    width: auto;
+    height: 823px;
+    background-image: url("images/танкер\ 1.png");
+    background-size: cover;
+}
+
+#second-block {
+    position: relative;
+    width: auto;
+    height: 778px;
+}
+
+#third-block {
+    position: relative;
+    width: auto;
+    height: 860px;
+}
+
+#fourth-block {
+    position: relative;
+    width: auto;
+    height: 272px;
+}
+
+#transport-block {
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+#fifth-block {
+    position: relative;
+    width: auto;
+    height: 909px;
+}
+
+#sixth-block {
+    position: relative;
+    width: auto;
+    height: 757px;
+}
+
+#seventh-block {
+    position: relative;
+    width: auto;
+    height: 851px;
+}
+
+#blur-first-block {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    width: 653px;
+    background-color: #D5E7EF;
+    opacity: 0.7;
+}
+
+#big-text-first-block {
+    position: relative;
+    display: block;
+    max-width: 450px;
+    margin-left: 33px;
+    top: 48px;
+    opacity: 1;
+}
+
+#big-text-first-block span {
+    font-size: calc(55 * var(--ratio));
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: calc(1.6799999475479126 * var(--ratio));
+    line-height: calc(56 * var(--ratio));
+}
+
+.text-first-block:nth-child(odd) {
+    color: #001A47;
+}
+
+.text-first-block:nth-child(even) {
+    color: #068ABE;
+}
+
+#little-text-first-block {
+    position: relative;
+    display: block;
+    margin-top: 80px;
+    margin-left: 33px;
+    max-width: 480px;
+}
+
+#little-text-first-block span {
+    font-size: calc(19 * var(--ratio));
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: calc(0.6000000238418579 * var(--ratio));
+    line-height: calc(20 * var(--ratio));
+}
+
+.description-first-block:nth-child(odd) {
+    color: #001a47ff;
+}
+
+.description-first-block:nth-child(even) {
+    color: #068ABE;
+}
+
+
+#button-first-block {
+    border: none;
+    display: block;
+    background: none;
+    cursor: pointer;
+    margin-left: 33px;
+    margin-top: 60px;
+    width: 502px;
+    height: 60px;
+    background-color: #068ABE;
+    border-radius: 9px;
+
+    font-size: calc(20 * var(--ratio));
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: calc(0.6000000238418579 * var(--ratio));
+    line-height: calc(20 * var(--ratio));
+    color: #FFF;
+}

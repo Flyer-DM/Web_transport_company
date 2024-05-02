@@ -1,0 +1,168 @@
+@media (min-width: 1000px) {
+
+    .navbar {
+        background-color: #001A47;
+    }
+
+    .navbar-brand {
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .navbar-nav {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-item {
+        margin-right: 20px;
+    }
+
+    .nav-link {
+        color: #97CADB;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: 'Lato', sans-serif;
+        transition: color 0.3s ease-in-out;
+    }
+
+
+    .nav-link:hover {
+        color: #ffffff;
+        /* Цвет при наведении на ссылку */
+    }
+
+    .navbar-brand {
+        margin-left: 20px;
+    }
+
+    .header-container {
+        text-align: center;
+    }
+
+    .header-image {
+        max-width: 500px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .phone {
+        color: #97CADB;
+        font-size: 23px;
+        text-decoration: none;
+    }
+
+    .call_back {
+        color: #D5E7EF;
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+    .phone_main {
+        text-align: left;
+        margin-left: 75px;
+    }
+
+    .ml-auto {
+        margin-top: 14px;
+    }
+
+    .logo {
+        width: 106px;
+        height: 84px;
+    }
+}
+
+
+@media (max-width: 1000px) {
+
+    .navbar {
+        background-color: #001A47;
+    }
+
+    .navbar-brand {
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .navbar-nav {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-item {
+        margin-right: 20px;
+    }
+
+    .nav-link {
+        color: #97CADB;
+        text-decoration: none;
+        font-weight: 500px;
+        font-size: 100px;
+        transition: color 0.3s ease-in-out;
+    }
+
+    .nav-link:hover {
+        color: #fff;
+        /* Цвет при наведении на ссылку */
+    }
+
+    .navbar-brand {
+        margin-left: 20px;
+        font-size: 70px;
+    }
+
+    .navbar {
+        font-size: 70px;
+    }
+
+    .navbar-toggler-icon {
+        width: 55px;
+        height: 55px;
+        background-color: #97CADB;
+    }
+
+
+    .header-container {
+        text-align: center;
+    }
+
+    .header-image {
+        max-width: 1300px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .phone {
+        color: #97CADB;
+        text-decoration: none;
+        font-size: 100px;
+    }
+
+    .call_back {
+        color: #D5E7EF;
+        font-size: 100px;
+        text-decoration: none;
+    }
+
+    .phone_main {
+        margin-left: 75px;
+        font-size: 100px;
+    }
+
+    .ml-auto {
+        margin-top: 14px;
+        font-size: 100px;
+    }
+
+    .logo {
+        width: 205px;
+        height: 205px;
+    }
+}
