@@ -203,6 +203,14 @@ body {
     padding-right: 10px;
 }
 
+.big-text-general-2 {
+    text-align: center;
+    font-weight: 750;
+    color: #D5E7EF;
+    opacity: 0.5;
+    font-size: calc(140 * var(--ratio));
+}
+
 .big-text-general {
     display: block;
     max-width: 1440px;
@@ -734,4 +742,112 @@ body {
 
 .submit-button_six:hover {
     background-color: #0075a3; /* изменение цвета фона при наведении */
+}
+
+.angry-grid-3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 0px;
+    height: 100%;
+}
+
+.angry-grid-item-3 {
+    min-width: 550px;
+    min-height: 300px;
+}
+
+#item-0-3 {
+
+    grid-row-start: 1;
+    grid-column-start: 1;
+
+    grid-row-end: 2;
+    grid-column-end: 2;
+
+}
+
+#item-1-3 {
+
+    grid-row-start: 1;
+    grid-column-start: 1;
+
+    grid-row-end: 2;
+    grid-column-end: 3;
+}
+
+.seven_big_bg_1{
+    background-color: #001A47;
+    width: 616px;
+    height: 700px;
+    margin-left: 10%;
+
+    border-radius: 8px;
+}
+
+.seven_big_bg_2{
+    background-color: #008ABE26;
+    width: 616px;
+    height: 700px;
+    margin-left: 20%;
+
+    border-radius: 8px;
+}
+
+.big-text-seven-1{
+    color: #97CADB;
+    font-family: 'Lato', sans-serif;
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 56.4px;
+    letter-spacing: 1.440000057220459px;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.text-info-seven{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    letter-spacing: 0.47999998927116394px;
+    text-align: left;
+    color: #97CADB;
+    margin-left: 10%;
+}
+
+.phone-seven, .mail-seven {
+    color: #97CADB;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0.8999999761581421px;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.seven-text{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0.8999999761581421px;
+    text-align: left;
+    color: #97CADB;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.big-text-seven-2{
+    color: #97CADB;
+    font-family: 'Lato', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+    letter-spacing: 1.440000057220459px;
+    text-align: left;
+    margin-left: 10%;
+    color: #001A47;
 }
