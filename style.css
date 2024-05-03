@@ -871,3 +871,108 @@ body {
     margin-left: 10%;
     color: #001A47;
 }
+
+#flex-fifth-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: center;
+    height: 100%;
+    padding: 15px;
+    gap: 40px 20px;
+}
+
+#spec-fifth-block:hover {
+    background-color: #97CADB;
+}
+
+#spec-fifth-block:hover>.first-text-fifth-block>span,
+#spec-fifth-block:hover>.second-text-fifth-block>span,
+#spec-fifth-block:hover>.calculation-fifth-block>span {
+    color: #001C47;
+}
+
+#spec-fifth-block:hover>.calculation-fifth-block>.arrow {
+    animation: rotateArrow 1s linear forwards;
+    transition: fill 0.6s ease-in;
+    fill: #001A47;
+}
+
+.item-fifth-block {
+    width: 390px;
+    border-radius: 9px;
+    background-color: #001A47;
+    transition: background-color 600ms ease-in;
+    border: 1px solid #001A47;
+}
+
+.item-fifth-block-first-three {
+    height: 388px;
+}
+
+.item-fifth-block-last-three {
+    height: 342px;
+}
+
+.big-num-fifth-block {
+    width: 126px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.big-num-fifth-block>span {
+    font-size: calc(100 * var(--ratio));
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #008ABE;
+    transition: color 500ms linear;
+}
+
+.first-text-fifth-block {
+    display: block;
+    margin-left: 20px;
+    margin-top: 70px;
+    text-align: left;
+}
+
+.first-text-fifth-block span {
+    text-align: center;
+    font-size: calc(23 * var(--ratio));
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #97CADB;
+    transition: color 600ms ease-in;
+}
+
+.second-text-fifth-block {
+    display: block;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: left;
+    max-width: 317px;
+}
+
+.second-text-fifth-block span {
+    text-align: center;
+    font-size: calc(16 * var(--ratio));
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #97CADB;
+    transition: color 600ms ease-in;
+}
+
+.calculation-fifth-block {
+    margin-left: 60%;
+    margin-top: 20px;
+    max-width: fit-content;
+}
+
+.calculation-fifth-block span {
+    font-size: calc(20 * var(--ratio));
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #97CADB;
+    transition: color 600ms ease-in;
+}
