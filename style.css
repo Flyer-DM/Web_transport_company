@@ -462,56 +462,34 @@ body {
 }
 
 #item-0 {
-
     grid-row-start: 1;
     grid-column-start: 1;
-
     grid-row-end: 2;
     grid-column-end: 2;
-
 }
 
 #item-1 {
-
     grid-row-start: 1;
     grid-column-start: 1;
-
     grid-row-end: 2;
     grid-column-end: 3;
-
 }
 
 #item-2 {
-
     grid-row-start: 2;
     grid-column-start: 1;
-
     grid-row-end: 3;
     grid-column-end: 2;
-
 }
 
 #item-3 {
-
     grid-row-start: 2;
     grid-column-start: 2;
-
     grid-row-end: 3;
     grid-column-end: 3;
-
 }
 
-#item-4 {
-
-    grid-row-start: 3;
-    grid-column-start: 1;
-
-    grid-row-end: 4;
-    grid-column-end: 2;
-
-}
-
-.blue_div_tr:hover {
+.angry-grid-item:hover>.blue_div_tr {
     background-color: #9BC7D6;
 }
 
@@ -620,6 +598,7 @@ body {
 .vehicle-transport-block {
     margin-top: 50px;
     display: inline-block;
+    width: 949px;
 }
 
 .description-transport-block {
@@ -662,7 +641,7 @@ body {
     transition: opacity 0.5s ease-in-out;
 }
 
-.six_big_bg{
+.six_big_bg {
     background-color: #008ABE26;
     width: 971.6px;
     height: 553.19px;
@@ -673,18 +652,19 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
-    gap: 0px;
+    gap: 30px;
     height: 100%;
 }
 
 .angry-grid-item-2 {
     min-width: 550px;
     min-height: 300px;
+    /* margin-left: 5%; */
 }
 
 #item-0-2 {
     margin-left: -10%;
-    margin-top: 6%;
+    /* margin-top: 6%; */
 
     grid-row-start: 1;
     grid-column-start: 1;
@@ -692,6 +672,7 @@ body {
     grid-row-end: 2;
     grid-column-end: 2;
 
+    gap: 200px
 }
 
 #item-1-2 {
@@ -704,7 +685,7 @@ body {
 
 }
 
-.six_small_text{
+.six_small_text {
     width: 339.19px;
     height: 25.76px;
     font-family: 'Lato', sans-serif;
@@ -717,13 +698,16 @@ body {
 }
 
 
-:focus{outline: none;}
-.input_six{
+:focus {
+    outline: none;
+}
+
+.input_six {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     color: #000000;
-    border: 1px solid #E2E2E2; 
-    border-radius: 6px; 
+    border: 1px solid #E2E2E2;
+    border-radius: 6px;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -731,17 +715,24 @@ body {
 .submit-button_six {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
-    color: #FFFFFF; /* белый цвет текста */
-    background-color: #068ABE; /* синий фон */
+    color: #FFFFFF;
+    /* белый цвет текста */
+    background-color: #068ABE;
+    /* синий фон */
     border: none;
-    border-radius: 9px; /* закругленные углы */
-    padding: 10px 20px; /* внутренний отступ по вертикали и горизонтали */
-    cursor: pointer; /* изменение курсора при наведении */
-    transition: background-color 0.3s; /* плавное изменение цвета фона */
+    border-radius: 9px;
+    /* закругленные углы */
+    padding: 10px 20px;
+    /* внутренний отступ по вертикали и горизонтали */
+    cursor: pointer;
+    /* изменение курсора при наведении */
+    transition: background-color 0.3s;
+    /* плавное изменение цвета фона */
 }
 
 .submit-button_six:hover {
-    background-color: #0075a3; /* изменение цвета фона при наведении */
+    background-color: #0075a3;
+    /* изменение цвета фона при наведении */
 }
 
 .angry-grid-3 {
@@ -776,16 +767,40 @@ body {
     grid-column-end: 3;
 }
 
-.seven_big_bg_1{
+.seven_big_bg_1 {
     background-color: #001A47;
     width: 616px;
     height: 700px;
     margin-left: 10%;
-
     border-radius: 8px;
+    transition: background-color 400ms ease-in;
 }
 
-.seven_big_bg_2{
+.seven_big_bg_1:hover {
+    background-color: #008ABE26;
+}
+
+.seven_big_bg_1:hover>.big-text-seven-1 {
+    color: #001C47;
+}
+
+.seven_big_bg_1:hover>.text-info-seven {
+    color: #001C47;
+}
+
+.seven_big_bg_1:hover>.phone-seven {
+    color: #001C47;
+}
+
+.seven_big_bg_1:hover>.mail-seven {
+    color: #001C47;
+}
+
+.seven_big_bg_1:hover>.seven-text {
+    color: #001C47;
+}
+
+.seven_big_bg_2 {
     background-color: #008ABE26;
     width: 616px;
     height: 700px;
@@ -794,7 +809,7 @@ body {
     border-radius: 8px;
 }
 
-.big-text-seven-1{
+.big-text-seven-1 {
     color: #97CADB;
     font-family: 'Lato', sans-serif;
     font-size: 47px;
@@ -803,9 +818,10 @@ body {
     letter-spacing: 1.440000057220459px;
     text-align: left;
     margin-left: 10%;
+    transition: color 400ms ease-in;
 }
 
-.text-info-seven{
+.text-info-seven {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -814,9 +830,11 @@ body {
     text-align: left;
     color: #97CADB;
     margin-left: 10%;
+    transition: color 400ms ease-in;
 }
 
-.phone-seven, .mail-seven {
+.phone-seven,
+.mail-seven {
     color: #97CADB;
     text-decoration: none;
     font-family: 'Lato', sans-serif;
@@ -826,9 +844,10 @@ body {
     letter-spacing: 0.8999999761581421px;
     text-align: left;
     margin-left: 10%;
+    transition: color 400ms ease-in;
 }
 
-.seven-text{
+.seven-text {
     font-family: 'Lato', sans-serif;
     font-size: 30px;
     font-weight: 400;
@@ -838,9 +857,10 @@ body {
     color: #97CADB;
     margin-left: 10%;
     margin-right: 10%;
+    transition: color 400ms ease-in;
 }
 
-.big-text-seven-2{
+.big-text-seven-2 {
     color: #97CADB;
     font-family: 'Lato', sans-serif;
     font-size: 48px;
