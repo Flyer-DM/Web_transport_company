@@ -645,7 +645,7 @@ body {
 
 .six_big_bg {
     background-color: #008ABE26;
-    width: 971.6px;
+    width: 930.6px;
     height: 553.19px;
     border-radius: 8px;
 }
@@ -718,23 +718,16 @@ body {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     color: #FFFFFF;
-    /* белый цвет текста */
     background-color: #068ABE;
-    /* синий фон */
     border: none;
     border-radius: 9px;
-    /* закругленные углы */
     padding: 10px 20px;
-    /* внутренний отступ по вертикали и горизонтали */
     cursor: pointer;
-    /* изменение курсора при наведении */
     transition: background-color 0.3s;
-    /* плавное изменение цвета фона */
 }
 
 .submit-button_six:hover {
     background-color: #0075a3;
-    /* изменение цвета фона при наведении */
 }
 
 .angry-grid-3 {
@@ -1043,3 +1036,41 @@ body {
     line-height: calc(20 * var(--ratio));
     color: #97CADB;
 }
+
+.modal-content {
+    background-color: #add8e6 !important;
+    width: 539px;
+    height: 350px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+/* Стиль для крестика */
+.modal-header .close {
+    color: #001A47; /* Синий цвет крестика */
+    opacity: 1;
+    outline: none;
+    border: none; /* Убираем границу */
+    background: none; /* Убираем фон */
+    font-size: 30px; /* Увеличиваем размер крестика */
+  }
+  .modal-header .close:hover {
+    color: #0056b3; /* Цвет крестика при наведении */
+  }
+
+  .big-text-modal{
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38.4px;
+    letter-spacing: 0.47999998927116394px;
+    text-align: left;
+    color: #001A47;
+  }
+
+  .modal-header,
+  .modal-body,
+  .modal-footer {
+      border: none !important;
+  }
+  
