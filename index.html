@@ -672,7 +672,7 @@
                             style="width: 30%; margin-left: 10%; margin-bottom: 2%;">
                         <input class="input_six" type="text" placeholder="Ваше имя" style="width: 30%;">
                          <!-- Кнопка для открытия модального окна -->
-                         <button type="button" class="submit-button_six" data-toggle="modal" data-target="#secondModal" style="width: 20%;">
+                         <button type="button" class="submit-button_six" data-toggle="modal" data-target="#secondModal" onclick="sendEmail()" style="width: 20%;">
                             Отправить
                         </button>
                         <!-- Модальное окно -->
@@ -703,6 +703,45 @@
                 </div>
             </div>
         </div>
+
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script>
+            // Инициализация EmailJS с вашим идентификатором пользователя
+            emailjs.init("dlyM-U-TagMwQoije");
+
+            // Функция для отправки данных на почту
+            function sendEmail() {
+                // Получение данных из формы
+                var addressFrom = document.querySelector('input[placeholder="Адрес погрузки"]').value;
+                var addressTo = document.querySelector('input[placeholder="Адрес выгрузки"]').value;
+                var weight = document.querySelector('input[placeholder="Вес груза, тонн"]').value;
+                var dimensions = document.querySelector('input[placeholder="Габариты груза (ДxШxВ) м"]').value;
+                var cargoType = document.querySelector('input[placeholder="Характер груза"]').value;
+                var lastName = document.querySelector('input[placeholder="Ваша фамилия"]').value;
+                var firstName = document.querySelector('input[placeholder="Ваше имя"]').value;
+
+                // Отправка данных на почту
+                emailjs.send("service_gx0xo5q", "template_s4beto9", {
+                    addressFrom: addressFrom,
+                    addressTo: addressTo,
+                    weight: weight,
+                    dimensions: dimensions,
+                    cargoType: cargoType,
+                    lastName: lastName,
+                    firstName: firstName
+                })
+                .then(function(response) {
+                    console.log("Письмо успешно отправлено!", response.status, response.text);
+                    // Показать сообщение об успешной отправке
+                    alert("Ваша заявка успешно отправлена!");
+                }, function(error) {
+                    console.log("Ошибка при отправке письма:", error);
+                    // Показать сообщение об ошибке
+                    alert("Произошла ошибка при отправке заявки. Пожалуйста, попробуйте еще раз.");
+                });
+            }
+        </script>
+        
         <!-- Седьмой блок  -->
         <div id="seventh-block">
             <div class="big-text-general-2">
