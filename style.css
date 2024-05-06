@@ -10,6 +10,10 @@ body {
     overflow-x: hidden;
 }
 
+.a-link {
+    text-decoration: none;
+}
+
 #first-block {
     top: 95px;
     position: relative;
@@ -1043,22 +1047,28 @@ body {
     height: 350px;
     gap: 0px;
     opacity: 0px;
-  }
+}
 
 /* Стиль для крестика */
 .modal-header .close {
-    color: #001A47; /* Синий цвет крестика */
+    color: #001A47;
+    /* Синий цвет крестика */
     opacity: 1;
     outline: none;
-    border: none; /* Убираем границу */
-    background: none; /* Убираем фон */
-    font-size: 30px; /* Увеличиваем размер крестика */
-  }
-  .modal-header .close:hover {
-    color: #0056b3; /* Цвет крестика при наведении */
-  }
+    border: none;
+    /* Убираем границу */
+    background: none;
+    /* Убираем фон */
+    font-size: 30px;
+    /* Увеличиваем размер крестика */
+}
 
-  .big-text-modal{
+.modal-header .close:hover {
+    color: #0056b3;
+    /* Цвет крестика при наведении */
+}
+
+.big-text-modal {
     font-family: 'Lato', sans-serif;
     font-size: 32px;
     font-weight: 500;
@@ -1066,23 +1076,22 @@ body {
     letter-spacing: 0.47999998927116394px;
     text-align: left;
     color: #001A47;
-  }
+}
 
-  .modal-header,
-  .modal-body,
-  .modal-footer {
-      border: none !important;
-  }
+.modal-header,
+.modal-body,
+.modal-footer {
+    border: none !important;
+}
 
-  
-  
-  #targetElement1 {
+
+
+#targetElement1 {
     scroll-snap-align: start;
-    scroll-margin-top: 80px; 
-    scroll-margin-bottom: 80px; 
-  }
-  
-  #targetElement1:focus {
-    scroll-margin-top: 0; 
-  }
-  
+    scroll-margin-top: 80px;
+    scroll-margin-bottom: 80px;
+}
+
+#targetElement1:focus {
+    scroll-margin-top: 0;
+}
