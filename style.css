@@ -665,6 +665,7 @@ footer {
         width: 930.6px;
         height: 553.19px;
         border-radius: 8px;
+        margin-left: 35px;
     }
 
     .angry-grid-2 {
@@ -789,6 +790,7 @@ footer {
         height: 700px;
         margin-left: 10%;
         border-radius: 8px;
+        margin-bottom: 20px;
         transition: background-color 400ms ease-in;
     }
 
