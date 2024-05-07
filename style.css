@@ -404,6 +404,13 @@ footer {
 
     }
 
+    .modal-text-1{
+        font-size: 20px;
+        font-weight: 500; 
+        line-height: 13.2px; 
+        letter-spacing: 0.47999998927116394px;
+    }
+
     .back_text_2 {
         font-size: 47px;
         font-family: 'Lato', sans-serif;
@@ -709,6 +716,10 @@ footer {
         margin-left: 10%;
     }
 
+    .modal_button_six{
+        width: 317.81px; 
+        height: 39.77px;
+    }
 
     :focus {
         outline: none;
@@ -1284,7 +1295,7 @@ footer {
         flex-wrap: wrap;
         align-content: flex-start;
         height: 330px;
-        width: calc(653px - 33px);
+        width: calc(653px - 33px) + 30px;
         padding: 15px;
         gap: 25px;
         position: relative;
@@ -1750,60 +1761,25 @@ footer {
 
     .six_big_bg {
         background-color: #008ABE26;
-        width: 930.6px;
-        height: 553.19px;
-        border-radius: 8px;
+        width: 100%;
+        height: 700px;
+        border-radius: 50px;
     }
 
-    .angry-grid-2 {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: stretch;
-        gap: 30px;
-        height: 100%;
-    }
-
-    .angry-grid-item-2 {
-        min-width: 550px;
-        min-height: 300px;
-        /* margin-left: 5%; */
-    }
-
-    #item-0-2 {
-        margin-left: -10%;
-        /* margin-top: 6%; */
-
-        grid-row-start: 1;
-        grid-column-start: 1;
-
-        grid-row-end: 2;
-        grid-column-end: 2;
-
-        margin: auto;
+    .six_photo{
         display: none;
     }
 
-    #item-1-2 {
-
-        grid-row-start: 1;
-        grid-column-start: 1;
-
-        grid-row-end: 2;
-        grid-column-end: 3;
-        margin: auto;
-
-    }
-
     .six_small_text {
-        width: 339.19px;
         height: 25.76px;
         font-family: 'Lato', sans-serif;
-        font-size: 15px;
+        font-size: 30px;
         font-weight: 400;
         line-height: 22.4px;
         letter-spacing: 0.47999998927116394px;
         color: #001C47;
         margin-left: 10%;
+        margin-bottom: 3%;
     }
 
 
@@ -1813,24 +1789,29 @@ footer {
 
     .input_six {
         font-family: 'Lato', sans-serif;
-        font-size: 16px;
+        font-size: 30px;
         color: #000000;
         border: 1px solid #E2E2E2;
-        border-radius: 6px;
+        border-radius: 25px;
         padding: 10px;
         box-sizing: border-box;
     }
 
     .submit-button_six {
         font-family: 'Lato', sans-serif;
-        font-size: 16px;
+        font-size: 30px;
         color: #FFFFFF;
         background-color: #068ABE;
         border: none;
-        border-radius: 9px;
+        border-radius: 25px;
         padding: 10px 20px;
         cursor: pointer;
         transition: background-color 0.3s;
+    }
+
+    .modal_button_six{
+        height: 100px;
+        width: 350px;
     }
 
     .submit-button_six:hover {
@@ -1875,10 +1856,11 @@ footer {
 
     .seven_big_bg_1 {
         background-color: #001A47;
-        width: 616px;
-        height: 700px;
-        border-radius: 8px;
+        width: 100%;
+        height: 550px;
+        border-radius: 50px;
         transition: background-color 400ms ease-in;
+        margin-bottom: 50px;
     }
 
     .seven_big_bg_1:hover {
@@ -1907,16 +1889,16 @@ footer {
 
     .seven_big_bg_2 {
         background-color: #008ABE26;
-        width: 616px;
-        height: 700px;
+        width: 100%;
+        height: 900px;
 
-        border-radius: 8px;
+        border-radius: 50px;
     }
 
     .big-text-seven-1 {
         color: #97CADB;
         font-family: 'Lato', sans-serif;
-        font-size: 47px;
+        font-size: 50px;
         font-weight: 400;
         line-height: 56.4px;
         letter-spacing: 1.440000057220459px;
@@ -1925,9 +1907,13 @@ footer {
         transition: color 400ms ease-in;
     }
 
+    .button-seven{
+        height: 100px;
+    }
+
     .text-info-seven {
         font-family: 'Lato', sans-serif;
-        font-size: 16px;
+        font-size: 30px;
         font-weight: 400;
         line-height: 19.2px;
         letter-spacing: 0.47999998927116394px;
@@ -2148,8 +2134,8 @@ footer {
 
     .modal-content {
         background-color: #add8e6 !important;
-        width: 539px;
-        height: 350px;
+        min-width: 550px !important;
+        height: 600px;
         gap: 0px;
         opacity: 0px;
     }
@@ -2164,7 +2150,7 @@ footer {
         /* Убираем границу */
         background: none;
         /* Убираем фон */
-        font-size: 30px;
+        font-size: 80px;
         /* Увеличиваем размер крестика */
     }
 
@@ -2175,8 +2161,8 @@ footer {
 
     .big-text-modal {
         font-family: 'Lato', sans-serif;
-        font-size: 32px;
-        font-weight: 500;
+        font-size: 60px;
+        font-weight: 800;
         line-height: 38.4px;
         letter-spacing: 0.47999998927116394px;
         text-align: left;
@@ -2187,6 +2173,13 @@ footer {
     .modal-body,
     .modal-footer {
         border: none !important;
+    }
+
+    .modal-text-1{
+        font-size: 50px;
+        font-weight: 500; 
+        margin-top: 50px;
+        line-height: 50px;
     }
 
 
