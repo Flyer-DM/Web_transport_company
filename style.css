@@ -1,14 +1,17 @@
+body {
+    scroll-behavior: smooth;
+}
+
+footer {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 @media (min-width: 1000px) {
     :root {
         --custom-width: min(1440px, 100vw);
         --design-width: 1440;
         --ratio: calc(var(--custom-width) / var(--design-width));
-    }
-
-    body {
-        scroll-behavior: smooth;
-        max-width: 100%;
-        overflow-x: hidden;
     }
 
     .a-link {
@@ -1109,12 +1112,6 @@
 @media (max-width: 1000px) {
     :root {
         --ratio: calc(var(--custom-width) / var(--design-width));
-    }
-
-    body {
-        scroll-behavior: smooth;
-        max-width: 100%;
-        overflow-x: hidden;
     }
 
     .a-link {
