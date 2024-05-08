@@ -68,7 +68,7 @@
 
     .phone_main {
         text-align: left;
-        margin-left: 75px;
+        margin-right: 100px;
     }
 
 
@@ -169,4 +169,35 @@
         width: 175px;
         height: 175px;
     }
+}
+
+@media (max-width: 820px) {
+    .phone {
+        color: #97CADB;
+        text-decoration: none;
+        font-size: 60px;
+    }
+
+    .phone_main {
+        font-size: 40px;
+    }
+
+    .call_back {
+        color: #97CADB;
+        font-size: 40px;
+    }
+
+    .nav-link-1 {
+        color: #97CADB;
+        text-decoration: none;
+        font-size: 50px;
+        transition: color 0.3s ease-in-out;
+        vertical-align: center;
+    }
+
+    .nav-item {
+        height: 120px;
+        vertical-align: center;
+    }
+
 }
