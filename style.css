@@ -307,18 +307,19 @@ footer {
 
     .text-second-block {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
         max-width: 100px;
         text-align: center;
         height: 72px;
+        position: absolute;
+        left: 35%;
+        bottom: 30%;
     }
 
     .text-second-block span {
         text-align: center;
         font-size: calc(16 * var(--ratio));
         font-family: 'Lato', sans-serif;
-        font-weight: 400;
+        font-weight: 300;
         color: #97CADB;
         transition: color 600ms ease-in;
     }
@@ -741,15 +742,16 @@ footer {
         font-size: 16px;
         color: #FFFFFF;
         background-color: #068ABE;
-        border: none;
+        border: 1px solid #068ABE;
         border-radius: 9px;
         padding: 10px 20px;
         cursor: pointer;
-        transition: background-color 0.3s;
+        transition: background-color 500ms linear, color 500ms linear;
     }
 
     .submit-button_six:hover {
-        background-color: #0075a3;
+        background-color: #FFF;
+        color: #068ABE;
     }
 
     .angry-grid-3 {
@@ -959,7 +961,7 @@ footer {
         text-align: center;
         font-size: calc(23 * var(--ratio));
         font-family: 'Lato', sans-serif;
-        font-weight: 400;
+        font-weight: 300;
         color: #97CADB;
         transition: color 600ms ease-in;
     }
@@ -976,7 +978,7 @@ footer {
         text-align: center;
         font-size: calc(16 * var(--ratio));
         font-family: 'Lato', sans-serif;
-        font-weight: 400;
+        font-weight: 300;
         color: #97CADB;
         transition: color 600ms ease-in;
     }
@@ -1824,7 +1826,7 @@ footer {
     }
 
     .submit-button_six:hover {
-        background-color: #0075a3;
+        background-color: #FFF;
     }
 
     .angry-grid-3 {
