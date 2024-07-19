@@ -169,6 +169,8 @@
         font-size: 60px;
         color: #D5E7EF;
         text-decoration: none;
+        text-align: left;
+        display: block;
     }
 
     .phone_main {

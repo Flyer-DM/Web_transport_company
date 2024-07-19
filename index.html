@@ -59,7 +59,7 @@
                     <a href="tel:+78122145477" class="phone">
                         +7 (812) 214-54-77
                     </a>
-                    <a class="btn_modal call_back" data-modal="calling">Обратный звонок</a>
+                    <a class="btn_modal call_back" data-modal="calling">Обратная связь</a>
                 </div>
             </div>
         </div>
@@ -350,7 +350,7 @@
 
                     <div class="blue_div_tr">
                         <br><br>
-                        <p class="main-text-tr">Собственные агенты в Турции и Европе</p>
+                        <p class="main-text-tr">Офис и склад в Турции</p>
                         <p class="second-text-tr">Что позволяет нам оперативно и по не высоким ценам доставлять грузы до
                             портов/складов убытия,
                             подготавливать документы на той стороне, получать преимущество на загрузках.
@@ -402,12 +402,9 @@
                     <div class="blue_div_tr">
                         <br><br>
                         <p class="main-text-tr">Мультимодальные перевозки</p>
-                        <p class="second-text-tr">Зачастую грузоперевозки связаны с привлечением нескольких разнородных
-                            способов транспортировки,
-                            временным хранением и перегрузками товара по пути следования.
-                            CCL имеет большой опыт в организации последовательной перевозки
-                            различными транспортными средствами, с попутными погрузо-разгрузочными операциями,
-                            хранением, а также фасовкой на транзитных складах.
+                        <p class="second-text-tr">Позволяет оптимизировать сложные логистические пути доставки вашего
+                            груза: ЖД, Авиа, Авто, Морской транспорт, с перегрузкой на транзитных складах и тем самым
+                            минимизировать финансовые затраты.
                         </p>
                     </div>
                 </div>
@@ -446,10 +443,8 @@
                     <div class="blue_div_tr">
                         <br><br>
                         <p class="main-text-tr">Гибкая тарифная политика</p>
-                        <p class="second-text-tr">Компания CCL готова предоставить своим постоянным клиентам
-                            отсрочки платежа по выполненным услугам в случае получения
-                            регулярных заказов и объемов, а так же значительно снизить стоимость услуг, для постоянных
-                            клиентов.
+                        <p class="second-text-tr">Предоставляем своим постоянным клиентам отсрочки по платежам за
+                            выполненные услуги в случае получения регулярных заказов и объемов.
                         </p>
                     </div>
 
@@ -479,9 +474,9 @@
                     <div class="blue_div_tr">
                         <br><br>
                         <p class="main-text-tr">Предоставление персонального менеджера</p>
-                        <p class="second-text-tr">Мы готовы предоставить вам персонального менеджера,
-                            который будет с вами на протяжении всего цикла доставки, в любой момент
-                            вы можете связаться с ним и уточнить любую информацию о вашей сделке
+                        <p class="second-text-tr">Предоставляем вам персонального менеджера, который будет с вами на
+                            протяжении всего цикла доставки, в любой момент вы можете связаться с ним и уточнить любую
+                            информацию о вашем грузе.
                         </p>
                     </div>
                 </div>
@@ -493,7 +488,7 @@
         <div id="fourth-block">
             <div class="big-text-general">
                 <!-- <span>ТРАНСПОРТ</span> -->
-                <span>Доступный транспорт</span>
+                <span>Виды перевозок</span>
             </div>
             <div id="flex-fourth-block">
                 <div class="item-fourth-block">
@@ -659,7 +654,9 @@
                         <input class="input_six" type="text" placeholder="Габариты груза (ДxШxВ) м" name="14"
                             style="width: 40%;">
                         <input class="input_six" type="text" placeholder="Характер груза" name="15"
-                            style="width: 80%; margin-left: 10%; margin-bottom: 2%;">
+                            style="width: 40%; margin-left: 10%; margin-bottom: 2%;">
+                        <input class="input_six" type="text" placeholder="Стоимость груза" name="18"
+                            style="width: 40%;">
                         <p class="six_small_text">Контактные данные</p>
                         <input class="input_six" type="text" placeholder="Ваше имя" name="16"
                             style="width: 30%; margin-left: 10%; margin-bottom: 2%;">
@@ -718,6 +715,7 @@
                 var cargoType = document.querySelector('input[name="15"]').value;
                 var lastName = document.querySelector('input[name="16"]').value;
                 var firstName = document.querySelector('input[name="17"]').value;
+                var price = document.querySelector('input[name="18"]').value;
 
                 // Отправка данных на почту
                 emailjs.send("service_gx0xo5q", "template_s4beto9", {
@@ -726,6 +724,7 @@
                     weight: weight,
                     dimensions: dimensions,
                     cargoType: cargoType,
+                    price: price,
                     lastName: lastName,
                     firstName: firstName
                 })
@@ -779,7 +778,9 @@
                         <input class="input_six" type="text" placeholder="Габариты груза (ДxШxВ) м" name="24"
                             style="width: 40%;">
                         <input class="input_six" type="text" placeholder="Характер груза" name="25"
-                            style="width: 80%; margin-left: 10%; margin-bottom: 2%;">
+                            style="width: 40%; margin-left: 10%; margin-bottom: 2%;">
+                        <input class="input_six" type="text" placeholder="Стоимость груза" name="28"
+                            style="width: 40%;">
                         <p class="six_small_text">Контактные данные</p>
                         <input class="input_six" type="text" placeholder="Ваше имя" name="26"
                             style="width: 40%; margin-left: 10%; margin-bottom: 2%;">
@@ -831,6 +832,7 @@
                     var cargoType = document.querySelector('input[name="25"]').value;
                     var lastName = document.querySelector('input[name="26"]').value;
                     var firstName = document.querySelector('input[name="27"]').value;
+                    var price = document.querySelector('input[name="28"]').value;
 
                     // Отправка данных на почту
                     emailjs.send("service_gx0xo5q", "template_s4beto9", {
@@ -839,6 +841,7 @@
                         weight: weight,
                         dimensions: dimensions,
                         cargoType: cargoType,
+                        price: price,
                         lastName: lastName,
                         firstName: firstName
                     })

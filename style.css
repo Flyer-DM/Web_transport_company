@@ -899,8 +899,7 @@ footer {
         font-weight: 400;
         line-height: 57.6px;
         letter-spacing: 1.440000057220459px;
-        text-align: left;
-        margin-left: 10%;
+        text-align: center;
         color: #001A47;
     }
 
@@ -1137,6 +1136,11 @@ footer {
 }
 
 @media (max-width: 1000px) {
+
+    body,
+    html {
+        overflow-x: hidden;
+    }
 
     /*телефонная версия*/
     :root {
