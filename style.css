@@ -8,6 +8,8 @@ footer {
 }
 
 @media (min-width: 1000px) {
+
+    /*ПК версия*/
     :root {
         --custom-width: min(1440px, 100vw);
         --design-width: 1440;
@@ -25,7 +27,7 @@ footer {
         height: 823px;
         overflow: hidden;
     }
-    
+
     #first-block iframe {
         position: absolute;
         top: 0;
@@ -35,12 +37,16 @@ footer {
         z-index: -1;
         pointer-events: none;
     }
-    
-    #blur-first-block, #big-text-first-block, #little-text-first-block, #button-first-block, #empty-first-block {
+
+    #blur-first-block,
+    #big-text-first-block,
+    #little-text-first-block,
+    #button-first-block,
+    #empty-first-block {
         position: relative;
         z-index: 1;
     }
-    
+
     #second-block {
         position: relative;
         width: auto;
@@ -231,7 +237,7 @@ footer {
     .big-text-general-2 {
         text-align: center;
         font-weight: 750;
-        color: #D5E7EF;
+        color: #001A47;
         opacity: 0.5;
         font-size: calc(140 * var(--ratio));
     }
@@ -251,7 +257,6 @@ footer {
 
 
     .big-text-general span {
-        position: absolute;
         /* блок будет прижат к нижней границе внешнего блока */
         bottom: 0;
         /* блок будет прижат к левой границе внешнего блока */
@@ -260,22 +265,14 @@ footer {
         font-family: 'Lato', sans-serif;
         text-align: center;
         letter-spacing: calc(1.6799999475479126 * var(--ratio));
-    }
 
-    .big-text-general span:nth-child(odd) {
-        font-weight: 750;
-        color: #D5E7EF;
-        opacity: 0.5;
-        font-size: calc(140 * var(--ratio));
-    }
-
-    .big-text-general span:nth-child(even) {
         position: absolute;
         color: #001A47;
-        font-size: calc(47 * var(--ratio));
+        font-size: calc(100 * var(--ratio));
         left: 5px;
         bottom: 32px;
     }
+
 
     #flex-second-block {
         display: flex;
@@ -1140,6 +1137,8 @@ footer {
 }
 
 @media (max-width: 1000px) {
+
+    /*телефонная версия*/
     :root {
         --ratio: calc(var(--custom-width) / var(--design-width));
     }
@@ -1164,8 +1163,12 @@ footer {
         z-index: -1;
         pointer-events: none;
     }
-    
-    #blur-first-block, #big-text-first-block, #little-text-first-block, #button-first-block, #empty-first-block {
+
+    #blur-first-block,
+    #big-text-first-block,
+    #little-text-first-block,
+    #button-first-block,
+    #empty-first-block {
         position: relative;
         z-index: 1;
     }
@@ -1275,7 +1278,7 @@ footer {
         line-height: calc(20 * var(--ratio));
     }
 
-    
+
 
     .description-first-block:nth-child(odd) {
         color: #001a47ff;
@@ -1362,7 +1365,7 @@ footer {
     .big-text-general-2 {
         text-align: center;
         font-weight: 750;
-        color: #D5E7EF;
+        color: #001A47;
         opacity: 0.5;
         font-size: 140px;
     }
@@ -1382,7 +1385,6 @@ footer {
 
 
     .big-text-general span {
-        position: absolute;
         /* блок будет прижат к нижней границе внешнего блока */
         bottom: 0;
         /* блок будет прижат к левой границе внешнего блока */
@@ -1391,19 +1393,10 @@ footer {
         font-family: 'Lato', sans-serif;
         text-align: center;
         letter-spacing: calc(1.6799999475479126 * var(--ratio));
-    }
 
-    .big-text-general span:nth-child(odd) {
-        font-weight: 750;
-        color: #D5E7EF;
-        opacity: 0.5;
-        font-size: 100px;
-    }
-
-    .big-text-general span:nth-child(even) {
         position: absolute;
         color: #001A47;
-        font-size: 47px;
+        font-size: 60px;
         left: 5px;
         bottom: 32px;
     }
