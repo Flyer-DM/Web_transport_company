@@ -34,10 +34,8 @@
         transition: color 0.3s ease-in-out;
     }
 
-
     .nav-link-1:hover {
         color: #ffffff;
-        /* Цвет при наведении на ссылку */
     }
 
     .navbar-brand {
@@ -56,20 +54,31 @@
 
     .phone {
         color: #97CADB;
-        font-size: 23px;
+        font-size: 20px;
         text-decoration: none;
     }
 
     .call_back {
         color: #D5E7EF;
-        font-size: 15px;
+        font-size: 13px;
         text-decoration: none;
+        text-align: left;
+        display: block;
     }
 
     .phone_main {
-        text-align: right;
+        text-align: left;
         margin-right: 15px;
         margin-left: auto;
+        display: block;
+    }
+
+    .mail-header {
+        color: #97CADB;
+        text-decoration: none;
+        font-size: 20px;
+        letter-spacing: 0.8999999761581421px;
+        text-align: left;
         display: block;
     }
 
@@ -78,14 +87,13 @@
         height: 84px;
     }
 
-    .mail-header {
-        color: #97CADB;
-        text-decoration: none;
-        font-size: 23px;
-        letter-spacing: 0.8999999761581421px;
-        text-align: right;
+    .phones-holder a {
         display: block;
+        margin: 0;
+        padding: 0;
+        line-height: 20px;
     }
+
 }
 
 
@@ -132,7 +140,6 @@
         font-size: 70px;
     }
 
-
     .navbar-toggler-icon {
         width: 10000px;
         height: 10000px;
@@ -159,14 +166,21 @@
     }
 
     .call_back {
-        color: #97CADB;
         font-size: 60px;
+        color: #D5E7EF;
         text-decoration: none;
     }
 
     .phone_main {
-        /* margin-left: 75px; */
         font-size: 60px;
+    }
+
+    .mail-header {
+        color: #97CADB;
+        text-decoration: none;
+        font-size: 80px;
+        letter-spacing: 0.8999999761581421px;
+        display: block;
     }
 
     .ml-auto {
@@ -192,7 +206,7 @@
     }
 
     .call_back {
-        color: #97CADB;
+        color: #D5E7EF;
         font-size: 40px;
     }
 
