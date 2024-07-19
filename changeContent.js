@@ -9,7 +9,7 @@ function changeContent(h1name, p1, p2, srcimg, altimg) {
             paragraphs[0].innerHTML = "Грузоподъёмность";
             paragraphs[1].innerHTML = p1;
             paragraphs[2].innerHTML = p2;
-            paragraphs[3].innerHTML = "До 30 шт";
+            paragraphs[3].innerHTML = "";
             paragraphs[0].style.opacity = 1;
             paragraphs[1].style.opacity = 1;
             paragraphs[2].style.opacity = 1;
