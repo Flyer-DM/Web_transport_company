@@ -66,9 +66,10 @@
     <main>
         <!-- Первый блок  -->
         <div id="first-block">
-            <iframe id="background-video"
-                src="https://www.youtube.com/embed/esTXSvu97lU?autoplay=1&mute=1&loop=1&playlist=esTXSvu97lU"
-                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <video id="background-video" autoplay muted loop>
+                <source src="/images/CCL.mp4" type="video/mp4">
+                Ваш браузер не поддерживает тег видео.
+            </video>
             <div id="blur-first-block"></div>
             <div id="big-text-first-block">
                 <span class="text-first-block">ТРАНСПОРТНАЯ КОМПАНИЯ ПО</span>
@@ -81,9 +82,8 @@
                 <span class="description-first-block">перевозке грузов и контейнеров морским, ж/д,
                     авиатранспортом и автотранспортом, таможенному оформлению, страхованию</span>
             </div>
-            <a href="#sixth-block" class="a-link">
-                <button id="button-first-block"><span>Получить консультацию</span></button>
-            </a>
+            <a href="#sixth-block" class="a-link"><button id="button-first-block"><span>Получить
+                        консультацию</span></button></a>
             <div id="empty-first-block">
                 <div>Страхование</div>
                 <div>Помощь в доставке грузов в санкционных условиях</div>
