@@ -21,12 +21,26 @@ footer {
     #first-block {
         top: 95px;
         position: relative;
-        width: auto;
+        width: 100%;
         height: 823px;
-        background-image: url("images/1454.png");
-        background-size: cover;
+        overflow: hidden;
     }
-
+    
+    #first-block iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        pointer-events: none;
+    }
+    
+    #blur-first-block, #big-text-first-block, #little-text-first-block, #button-first-block, #empty-first-block {
+        position: relative;
+        z-index: 1;
+    }
+    
     #second-block {
         position: relative;
         width: auto;
@@ -1138,8 +1152,22 @@ footer {
         top: 200px;
         position: relative;
         width: auto;
-        background-image: url("images/1454.png");
         background-size: cover;
+    }
+
+    #first-block iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        pointer-events: none;
+    }
+    
+    #blur-first-block, #big-text-first-block, #little-text-first-block, #button-first-block, #empty-first-block {
+        position: relative;
+        z-index: 1;
     }
 
     #second-block {
