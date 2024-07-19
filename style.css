@@ -23,7 +23,7 @@ footer {
         position: relative;
         width: auto;
         height: 823px;
-        background-image: url("images/0508.gif");
+        background-image: url("images/1454.png");
         background-size: cover;
     }
 
@@ -81,6 +81,7 @@ footer {
         align-items: flex-start;
         width: 653px;
         background-color: #D5E7EF;
+        height: 100%;
         opacity: 0.7;
     }
 
@@ -1137,7 +1138,7 @@ footer {
         top: 200px;
         position: relative;
         width: auto;
-        background-image: url("images/0508.gif");
+        background-image: url("images/1454.png");
         background-size: cover;
     }
 
@@ -1170,7 +1171,7 @@ footer {
         position: relative;
         width: auto;
         min-height: 909px;
-        margin-top: 300px;
+        margin-top: 400px;
     }
 
     #sixth-block {
@@ -1245,6 +1246,8 @@ footer {
         letter-spacing: calc(0.6000000238418579 * var(--ratio));
         line-height: calc(20 * var(--ratio));
     }
+
+    
 
     .description-first-block:nth-child(odd) {
         color: #001a47ff;
