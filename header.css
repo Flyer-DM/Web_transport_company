@@ -67,13 +67,24 @@
     }
 
     .phone_main {
-        text-align: left;
-        margin-left: 320px;
+        text-align: right;
+        margin-right: 15px;
+        margin-left: auto;
+        display: block;
     }
 
     .logo {
         width: 106px;
         height: 84px;
+    }
+
+    .mail-header {
+        color: #97CADB;
+        text-decoration: none;
+        font-size: 23px;
+        letter-spacing: 0.8999999761581421px;
+        text-align: right;
+        display: block;
     }
 }
 
