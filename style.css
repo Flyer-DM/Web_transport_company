@@ -9,7 +9,6 @@ footer {
 
 @media (min-width: 1000px) {
 
-    /*ПК версия*/
     :root {
         --custom-width: min(1440px, 100vw);
         --design-width: 1440;
@@ -161,6 +160,11 @@ footer {
         color: #068ABE;
     }
 
+    #crane {
+        width: 550px;
+        height: 550px;
+        object-fit: cover;
+    }
 
     #button-first-block {
         position: relative;

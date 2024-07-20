@@ -9,9 +9,10 @@
         content="Логистическая компания, логистика из Турции, морские перевозки, авиа перевозки. Предоставляем услуги по международной перевозке грузов и контейнеров морским, ж/д, авиатранспортом и автотранспортом, таможенному оформлению, страхованию.">
     <meta name="keywords"
         content="логистическая компания, логистика из Турции, морские перевозки, авиа перевозки, международные перевозки, контейнерные перевозки, таможенное оформление, страхование грузов">
-    <link rel="icon" href="./images/logo.jpg" type="image/x-icon" />
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" type="text/css" href="header.css" />
+    <link rel="icon" type="image/x-icon" href="./images/logo.jpg" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" type="text/css" href="./adaptive styles/style-1920.css" />
+    <link rel="stylesheet" type="text/css" href="./header.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -650,7 +651,7 @@
             </div>
             <div class="angry-grid-2">
                 <div id="item-0-2" class="angry-grid-item-2 six_photo">
-                    <img src="images/crane.png" style="width: 550px; height: 550px; object-fit: cover;">
+                    <img src="images/crane.png" id="crane">
                 </div>
                 <div id="item-1-2" class="angry-grid-item-2">
                     <div class="six_big_bg">
@@ -844,7 +845,7 @@
             $('.navbar-toggler').click(function () {
                 $('.navbar-collapse').collapse('toggle');
             });
-            
+
             $('.navbar-nav a').click(function () {
                 $('.navbar-collapse').collapse('hide');
             });

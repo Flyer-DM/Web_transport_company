@@ -1,49 +1,63 @@
 .navbar {
     border: 2px solid #97CADB;
+    background-color: #001A47;
 }
 
-@media (min-width: 1000px) {
+.navbar-brand {
+    color: #fff;
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 24px;
+}
 
-    .navbar {
-        background-color: #001A47;
-    }
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
 
-    .navbar-brand {
-        color: #fff;
-        font-size: 24px;
-        font-weight: bold;
-    }
+.nav-item {
+    margin-right: 20px;
+}
 
-    .navbar-nav {
-        list-style: none;
-        display: flex;
-        margin: 0;
-        padding: 0;
-    }
+.nav-link-1 {
+    color: #97CADB;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    transition: color 0.3s ease-in-out;
+}
 
-    .nav-item {
-        margin-right: 20px;
-    }
+.nav-link-1:hover {
+    color: #ffffff;
+}
+
+.header-container {
+    text-align: center;
+}
+
+.phone {
+    color: #97CADB;
+    text-decoration: none;
+}
+
+.call_back {
+    color: #D5E7EF;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+}
+
+.mail-header {
+    color: #97CADB;
+    text-decoration: none;
+}
+
+@media (min-width: 1000px) and (max-width: 1918.5px) {
 
     .nav-link-1 {
-        color: #97CADB;
-        text-decoration: none;
         font-size: 18px;
         font-weight: 300;
-        font-family: 'Lato', sans-serif;
-        transition: color 0.3s ease-in-out;
-    }
-
-    .nav-link-1:hover {
-        color: #ffffff;
-    }
-
-    .navbar-brand {
-        margin-left: 20px;
-    }
-
-    .header-container {
-        text-align: center;
     }
 
     .header-image {
@@ -53,17 +67,11 @@
     }
 
     .phone {
-        color: #97CADB;
         font-size: 20px;
-        text-decoration: none;
     }
 
     .call_back {
-        color: #D5E7EF;
         font-size: 13px;
-        text-decoration: none;
-        text-align: left;
-        display: block;
     }
 
     .phone_main {
@@ -74,8 +82,6 @@
     }
 
     .mail-header {
-        color: #97CADB;
-        text-decoration: none;
         font-size: 20px;
         letter-spacing: 0.8999999761581421px;
         text-align: left;
