@@ -27,7 +27,7 @@ footer {
         height: 823px;
         overflow: hidden;
     }
-    
+
     #background-video {
         position: absolute;
         top: 0;
@@ -37,16 +37,16 @@ footer {
         object-fit: cover;
         z-index: -1;
     }
-    
-    #blur-first-block, 
-    #big-text-first-block, 
-    #little-text-first-block, 
-    #button-first-block, 
+
+    #blur-first-block,
+    #big-text-first-block,
+    #little-text-first-block,
+    #button-first-block,
     #empty-first-block {
         position: relative;
         z-index: 1;
     }
-    
+
 
     #second-block {
         position: relative;
@@ -233,6 +233,28 @@ footer {
         padding-top: 15px;
         padding-left: 10px;
         padding-right: 10px;
+    }
+
+    #blur-elem-first,
+    #iframe-elem-second {
+        display: inline-block;
+        position: absolute;
+    }
+
+    #iframe-elem-second {
+        right: 0;
+    }
+
+    #blur-elem-first {
+        left: 0;
+    }
+
+    #currency {
+        width: 300px;
+        height: 315.4px;
+        border: 0;
+        background-color: transparent;
+        margin-top: 18px;
     }
 
     .big-text-general-2 {
@@ -1143,7 +1165,6 @@ footer {
         overflow-x: hidden;
     }
 
-    /*телефонная версия*/
     :root {
         --ratio: calc(var(--custom-width) / var(--design-width));
     }
@@ -1153,13 +1174,13 @@ footer {
     }
 
     #first-block {
-        top: 95px;
+        top: 150px;
         position: relative;
         width: auto;
-        height: 823px;
+        height: auto;
         overflow: hidden;
     }
-    
+
     #background-video {
         position: absolute;
         top: 0;
@@ -1169,15 +1190,15 @@ footer {
         object-fit: cover;
         z-index: -1;
     }
-    
-    #blur-first-block, 
-    #big-text-first-block, 
-    #little-text-first-block, 
-    #button-first-block, 
+
+    #blur-first-block,
+    #big-text-first-block,
+    #little-text-first-block,
+    #button-first-block,
     #empty-first-block {
         position: relative;
         z-index: 1;
-    }    
+    }
 
     #second-block {
         position: relative;
@@ -1235,6 +1256,27 @@ footer {
         width: 100%;
         background-color: #D5E7EF;
         opacity: 0.7;
+    }
+
+    #first-block-container {
+        height: 1275px;
+    }
+
+    #blur-elem-first {
+        position: relative;
+    }
+
+    #iframe-elem-second {
+        position: relative;
+        height: 100%;
+    }
+
+    #currency {
+        width: 100%;
+        height: 100%;
+        border: 0;
+        background-color: transparent;
+        margin-top: 0px;
     }
 
     #big-text-first-block {
@@ -2224,7 +2266,6 @@ footer {
     }
 
 
-
     #targetElement1 {
         scroll-snap-align: start;
         scroll-margin-top: 80px;
@@ -2243,7 +2284,7 @@ footer {
 
 }
 
-@media (max-width: 820px) {
+@media (max-width: 950px) {
     .big-text-general {
         display: block;
         max-width: 1440px;
