@@ -646,7 +646,7 @@ footer {
     #long-transport-block {
         height: 340px;
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
         align-content: flex-start;
@@ -714,6 +714,8 @@ footer {
         align-items: stretch;
         gap: 30px;
         height: 100%;
+        align-content: center;
+        justify-content: center;
     }
 
     .angry-grid-item-2 {
@@ -2296,5 +2298,33 @@ footer {
         margin-left: 55px;
         margin-top: 170px;
         position: relative;
+    }
+}
+
+@media (max-width: 1405px) {
+
+    /* Убираем рисунок крана, когда первая форма занимает весь экран */
+
+    #crane {
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+
+    #item-0-2 {
+        margin-left: 0%;
+    }
+
+    .angry-grid-item-2 {
+        min-width: 0px;
+        min-height: 0px;
+    }
+
+    .six_big_bg {
+        background-color: #008ABE26;
+        width: 930.6px;
+        height: 553.19px;
+        border-radius: 8px;
+        margin-left: 0px;
     }
 }

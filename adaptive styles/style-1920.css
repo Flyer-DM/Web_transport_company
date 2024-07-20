@@ -79,6 +79,15 @@
         font-size: 24px;
     }
 
+    .angry-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: stretch;
+        gap: 10px 0px;
+        height: 100%;
+    }
+
     .icon_tr_2 {
         position: absolute;
         margin-left: 10%;
