@@ -4297,12 +4297,11 @@ footer {
 
     .seven_big_bg_1 {
         background-color: #001A47;
-        width: 80%;
+        width: 60%;
         border-radius: 50px;
         transition: background-color 400ms ease-in;
         margin-bottom: 50px;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 8%;
     }
 
     .seven_big_bg_1:hover {
@@ -4331,12 +4330,11 @@ footer {
 
     .seven_big_bg_2 {
         background-color: #008ABE26;
-        width: 80%;
+        width: 60%;
         height: 540px;
 
         border-radius: 50px;
-        margin-left:  10%;
-        margin-right: 10%;
+        margin-left:  8%;
     }
 
     .big-text-seven-1 {
