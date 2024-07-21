@@ -78,4 +78,14 @@
         margin-left: 0%;
         border-radius: 8px;
     }
+
+    .icon_tr_1 {
+        margin-left: 0%;
+    }
+
+    .blue_div_tr {
+        width: 750px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
 }

@@ -458,7 +458,7 @@ footer {
     .blue_div_tr {
         background-color: #DAEFF7;
         margin-left: 20%;
-        width: 555px;
+        width: 750px;
         height: 362px;
         left: 123px;
         gap: 0px;
@@ -471,11 +471,6 @@ footer {
 
     .icon_tr_1 {
         position: absolute;
-    }
-
-    .icon_tr_2 {
-        position: absolute;
-        margin-left: 13%;
     }
 
     .main-text-tr {
@@ -549,17 +544,8 @@ footer {
         transition: fill 0.5s ease;
     }
 
-    .icon_tr_2 {
-        fill: #008ABE;
-        transition: fill 0.5s ease;
-    }
-
     .angry-grid-item:hover .icon_tr_1 {
         fill: #008ABE;
-    }
-
-    .angry-grid-item:hover .icon_tr_2 {
-        fill: #001C47;
     }
 
     #flex-fourth-block {
@@ -1577,12 +1563,6 @@ footer {
         position: absolute;
     }
 
-    .icon_tr_2 {
-        position: absolute;
-        margin-left: 13%;
-        margin-top: 10%;
-    }
-
     .main-text-tr {
         font-family: 'Lato', sans-serif;
         font-size: 40px;
@@ -1652,17 +1632,8 @@ footer {
         margin-left: -10%;
     }
 
-    .icon_tr_2 {
-        fill: #008ABE;
-        transition: fill 0.5s ease;
-    }
-
     .angry-grid-item:hover .icon_tr_1 {
         fill: #008ABE;
-    }
-
-    .angry-grid-item:hover .icon_tr_2 {
-        fill: #001C47;
     }
 
     #flex-fourth-block {
@@ -2753,15 +2724,6 @@ footer {
         position: absolute;
     }
 
-    .icon_tr_2 {
-        position: absolute;
-        margin-left: 13%;
-        margin-top: 10%;
-        width: 100px;
-        height: 100px;
-
-    }
-
     .svg {
         width: 132px;
         height: 132px;
@@ -2836,17 +2798,8 @@ footer {
         margin-left: -10%;
     }
 
-    .icon_tr_2 {
-        fill: #008ABE;
-        transition: fill 0.5s ease;
-    }
-
     .angry-grid-item:hover .icon_tr_1 {
         fill: #008ABE;
-    }
-
-    .angry-grid-item:hover .icon_tr_2 {
-        fill: #001C47;
     }
 
     #flex-fourth-block {
@@ -3899,7 +3852,7 @@ footer {
         margin-left: 10%;
         margin-right: 10%;
         width: 80%;
-        height: 100%;
+        height: 400px;
         left: 123px;
         gap: 0px;
         border-radius: 4px 0px 0px 0px;
@@ -3913,15 +3866,6 @@ footer {
         width: 150px;
         height: 150px;
         position: absolute;
-    }
-
-    .icon_tr_2 {
-        position: absolute;
-        margin-left: 13%;
-        margin-top: 10%;
-        width: 100px;
-        height: 100px;
-
     }
 
     .svg {
@@ -3995,20 +3939,11 @@ footer {
     .icon_tr_1 {
         fill: #001C47;
         transition: fill 0.5s ease;
-        margin-left: -10%;
-    }
-
-    .icon_tr_2 {
-        fill: #008ABE;
-        transition: fill 0.5s ease;
+        margin-left: 0%;
     }
 
     .angry-grid-item:hover .icon_tr_1 {
         fill: #008ABE;
-    }
-
-    .angry-grid-item:hover .icon_tr_2 {
-        fill: #001C47;
     }
 
     #flex-fourth-block {
@@ -5059,7 +4994,7 @@ footer {
         margin-left: 10%;
         margin-right: 10%;
         width: 80%;
-        height: 100%;
+        height: 250px;
         left: 123px;
         gap: 0px;
         border-radius: 4px 0px 0px 0px;
@@ -5073,15 +5008,6 @@ footer {
         width: 150px;
         height: 150px;
         position: absolute;
-    }
-
-    .icon_tr_2 {
-        position: absolute;
-        margin-left: 13%;
-        margin-top: 10%;
-        width: 100px;
-        height: 100px;
-
     }
 
     .svg {
@@ -5155,20 +5081,11 @@ footer {
     .icon_tr_1 {
         fill: #001C47;
         transition: fill 0.5s ease;
-        margin-left: -10%;
-    }
-
-    .icon_tr_2 {
-        fill: #008ABE;
-        transition: fill 0.5s ease;
+        margin-left: 10%;
     }
 
     .angry-grid-item:hover .icon_tr_1 {
         fill: #008ABE;
-    }
-
-    .angry-grid-item:hover .icon_tr_2 {
-        fill: #001C47;
     }
 
     #flex-fourth-block {
@@ -6220,7 +6137,7 @@ footer {
         margin-left: 10%;
         margin-right: 10%;
         width: 80%;
-        height: 100%;
+        height: 250px;
         left: 123px;
         gap: 0px;
         border-radius: 4px 0px 0px 0px;
@@ -6234,15 +6151,6 @@ footer {
         width: 250px;
         height: 250px;
         position: absolute;
-    }
-
-    .icon_tr_2 {
-        position: absolute;
-        margin-left: 13%;
-        margin-top: 10%;
-        width: 200px;
-        height: 200px;
-
     }
 
     .svg {
@@ -6317,20 +6225,11 @@ footer {
     .icon_tr_1 {
         fill: #001C47;
         transition: fill 0.5s ease;
-        margin-left: -10%;
-    }
-
-    .icon_tr_2 {
-        fill: #008ABE;
-        transition: fill 0.5s ease;
+        margin-left: 0%;
     }
 
     .angry-grid-item:hover .icon_tr_1 {
         fill: #008ABE;
-    }
-
-    .angry-grid-item:hover .icon_tr_2 {
-        fill: #001C47;
     }
 
     #flex-fourth-block {
