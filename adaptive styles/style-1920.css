@@ -192,4 +192,16 @@
         min-height: 77px;
     }
 
+    #transport-block {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .description-transport-block {
+        width: 60px;
+        height: 100px;
+        display: inline-block;
+    }
+
 }

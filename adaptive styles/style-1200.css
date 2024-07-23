@@ -81,6 +81,12 @@
     #sixth-block {
         min-height: 77px;
     }
+
+    #transport-block {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 1510px) {

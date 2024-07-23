@@ -630,6 +630,7 @@ footer {
     .description-transport-block>div>p {
         font-family: 'Lato', sans-serif;
         font-weight: 400;
+        width: 200px;
     }
 
     .p-transport-block,
@@ -2899,22 +2900,24 @@ footer {
 
     .description-transport-block {
         width: 100%;
-        height: 100%;
-        margin: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
     }
 
     .description-transport-block>h1 {
-        margin-left: 60px;
+        margin-left: 0px;
         font-size: 20px;
         font-family: 'Lato', sans-serif;
         font-weight: 400;
+        width: min-content;
+        display: inline-block;
     }
 
     .description-transport-block>div {
         display: inline-block;
-        margin-left: 120px;
-        margin-top: 80px;
-        width: max-content;
+        margin-left: 3px;
+        margin-top: 0px;
     }
 
     .description-transport-block>div>p {
@@ -2925,11 +2928,15 @@ footer {
     .description-transport-block>div>p:nth-child(odd) {
         color: #828282;
         font-size: 20px;
+        display: inline-block;
     }
 
     .description-transport-block>div>p:nth-child(even) {
         color: #393939;
         font-size: 20px;
+        display: inline-block;
+        width: 250px;
+        margin-left: 0px;
     }
 
     .p-transport-block,
@@ -4043,22 +4050,24 @@ footer {
 
     .description-transport-block {
         width: 100%;
-        height: 100%;
-        margin: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
     }
 
     .description-transport-block>h1 {
-        margin-left: 60px;
-        font-size: 20px;
+        margin-left: 0px;
+        font-size: 30px;
         font-family: 'Lato', sans-serif;
         font-weight: 400;
+        width: min-content;
+        display: inline-block;
     }
 
     .description-transport-block>div {
         display: inline-block;
-        margin-left: 120px;
-        margin-top: 80px;
-        width: max-content;
+        margin-left: 3px;
+        margin-top: 0px;
     }
 
     .description-transport-block>div>p {
@@ -4068,12 +4077,16 @@ footer {
 
     .description-transport-block>div>p:nth-child(odd) {
         color: #828282;
-        font-size: 20px;
+        font-size: 26px;
+        display: inline-block;
     }
 
     .description-transport-block>div>p:nth-child(even) {
         color: #393939;
-        font-size: 20px;
+        font-size: 30px;
+        display: inline-block;
+        width: 250px;
+        margin-left: 0px;
     }
 
     .p-transport-block,
@@ -5185,22 +5198,24 @@ footer {
 
     .description-transport-block {
         width: 100%;
-        height: 100%;
-        margin: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
     }
 
     .description-transport-block>h1 {
-        margin-left: 60px;
-        font-size: 20px;
+        margin-left: 0px;
+        font-size: 50px;
         font-family: 'Lato', sans-serif;
         font-weight: 400;
+        width: min-content;
+        display: inline-block;
     }
 
     .description-transport-block>div {
         display: inline-block;
-        margin-left: 120px;
-        margin-top: 80px;
-        width: max-content;
+        margin-left: 3px;
+        margin-top: 0px;
     }
 
     .description-transport-block>div>p {
@@ -5210,12 +5225,16 @@ footer {
 
     .description-transport-block>div>p:nth-child(odd) {
         color: #828282;
-        font-size: 20px;
+        font-size: 36px;
+        display: inline-block;
     }
 
     .description-transport-block>div>p:nth-child(even) {
         color: #393939;
-        font-size: 20px;
+        font-size: 40px;
+        display: inline-block;
+        width: 250px;
+        margin-left: 0px;
     }
 
     .p-transport-block,
@@ -6329,22 +6348,24 @@ footer {
 
     .description-transport-block {
         width: 100%;
-        height: 100%;
-        margin: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
     }
 
     .description-transport-block>h1 {
-        margin-left: 60px;
-        font-size: 20px;
+        margin-left: 0px;
+        font-size: 50px;
         font-family: 'Lato', sans-serif;
         font-weight: 400;
+        width: min-content;
+        display: inline-block;
     }
 
     .description-transport-block>div {
         display: inline-block;
-        margin-left: 120px;
-        margin-top: 80px;
-        width: max-content;
+        margin-left: 3px;
+        margin-top: 0px;
     }
 
     .description-transport-block>div>p {
@@ -6354,12 +6375,16 @@ footer {
 
     .description-transport-block>div>p:nth-child(odd) {
         color: #828282;
-        font-size: 20px;
+        font-size: 36px;
+        display: inline-block;
     }
 
     .description-transport-block>div>p:nth-child(even) {
         color: #393939;
-        font-size: 20px;
+        font-size: 40px;
+        display: inline-block;
+        width: 250px;
+        margin-left: 0px;
     }
 
     .p-transport-block,

@@ -35,7 +35,7 @@
 
     .description-transport-block>div {
         display: inline-block;
-        margin-left: 50px;
+        margin-left: 30px;
     }
 
     .description-transport-block>div>p:nth-child(odd) {
@@ -48,7 +48,8 @@
         color: #393939;
         font-size: 40px;
         display: inline-block;
-        margin-left: 40px;
+        margin-left: 150px;
+        width: 250px;
     }
 
     .angry-grid-3 {
