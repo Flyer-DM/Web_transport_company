@@ -13,5 +13,5 @@ document.getElementById('calc-form-1').addEventListener('submit', function (even
 
     let result = width * length * height * dependency1 * dependency2 * cost;
 
-    document.getElementById('result-CBM').textContent = "Итоговая стоимость: " + parseInt(result);
+    document.getElementById('result-CBM').value = parseInt(result);
 });

@@ -7,5 +7,5 @@ document.getElementById('calc-form-3').addEventListener('submit', function (even
 
     let result = weight * dependency1;
 
-    document.getElementById('result-KG').textContent = "Итоговая стоимость: " + parseInt(result);
+    document.getElementById('result-KG').value = parseInt(result);
 });

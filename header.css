@@ -123,13 +123,17 @@
 
     .nav-item {
         margin-right: 20px;
+        height: 100px;
     }
 
     .nav-link-1 {
+        display: block;
         color: #97CADB;
         text-decoration: none;
-        font-size: 70px;
+        font-size: 18px;
+        font-weight: 300;
         transition: color 0.3s ease-in-out;
+        height: 90px;
     }
 
     .nav-link-1:hover {
@@ -139,11 +143,11 @@
 
     .navbar-brand {
         margin-left: 20px;
-        font-size: 70px;
+        font-size: 20px;
     }
 
     .navbar {
-        font-size: 70px;
+        font-size: 20px;
     }
 
     .navbar-toggler-icon {
@@ -160,7 +164,7 @@
     }
 
     .header-image {
-        max-width: 80px;
+        max-width: 20px;
         height: auto;
         margin-bottom: 10px;
     }
@@ -168,11 +172,11 @@
     .phone {
         color: #97CADB;
         text-decoration: none;
-        font-size: 80px;
+        font-size: 20px;
     }
 
     .call_back {
-        font-size: 60px;
+        font-size: 16px;
         color: #D5E7EF;
         text-decoration: none;
         text-align: left;
@@ -180,13 +184,13 @@
     }
 
     .phone_main {
-        font-size: 60px;
+        font-size: 20px;
     }
 
     .mail-header {
         color: #97CADB;
         text-decoration: none;
-        font-size: 80px;
+        font-size: 20px;
         letter-spacing: 0.8999999761581421px;
         display: block;
     }
@@ -197,8 +201,8 @@
     }
 
     .logo {
-        width: 175px;
-        height: 175px;
+        width: 75px;
+        height: 75px;
     }
 }
 
@@ -233,7 +237,7 @@
 
 }
 
-@media (max-width: 376px){
+@media (max-width: 376px) {
     .navbar {
         background-color: #001A47;
     }
@@ -252,7 +256,7 @@
 
     .nav-item {
         margin-right: 20px;
-        margin-bottom: -70px; 
+        margin-bottom: -70px;
     }
 
     .nav-link-1 {
@@ -322,7 +326,7 @@
         height: 75px;
     }
 
-    .navbar-toggler-icon{
+    .navbar-toggler-icon {
         font-size: 2.5rem;
     }
 }
@@ -346,7 +350,7 @@
 
     .nav-item {
         margin-right: 20px;
-        margin-bottom: -70px; 
+        margin-bottom: -70px;
     }
 
     .nav-link-1 {
@@ -416,7 +420,7 @@
         height: 75px;
     }
 
-    .navbar-toggler-icon{
+    .navbar-toggler-icon {
         font-size: 2.5rem;
     }
 }
@@ -440,7 +444,7 @@
 
     .nav-item {
         margin-right: 20px;
-        margin-bottom: -70px; 
+        margin-bottom: -70px;
     }
 
     .nav-link-1 {
@@ -510,7 +514,7 @@
         height: 75px;
     }
 
-    .navbar-toggler-icon{
+    .navbar-toggler-icon {
         font-size: 2.5rem;
     }
 }
@@ -534,7 +538,7 @@
 
     .nav-item {
         margin-right: 20px;
-        margin-bottom: -70px; 
+        margin-bottom: -70px;
     }
 
     .nav-link-1 {
@@ -604,7 +608,7 @@
         height: 75px;
     }
 
-    .navbar-toggler-icon{
+    .navbar-toggler-icon {
         font-size: 2.5rem;
     }
 }
@@ -697,7 +701,7 @@
         height: 75px;
     }
 
-    .navbar-toggler-icon{
+    .navbar-toggler-icon {
         font-size: 2.5rem;
     }
 }

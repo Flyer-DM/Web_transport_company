@@ -472,7 +472,19 @@
                 <span>Расчёт сборного груза</span>
             </div>
             <div id="flex-fifth-block">
-                <div class="item-fifth-block item-fifth-block-first-three">
+                <div id="calcs">
+                    <div class="calc-button">
+                        <button data-target="CBM"><span class="calc-span">CBM</span></button>
+                    </div>
+                    <div class="calc-button">
+                        <button data-target="LDM"><span class="calc-span">LDM</span></button>
+                    </div>
+                    <div class="calc-button">
+                        <button data-target="KG"><span class="calc-span">KG</span></button>
+                    </div>
+                </div>
+
+                <div class="item-fifth-block item-fifth-block-first-three" id="CBM">
                     <div class="big-num-fifth-block">
                         <span>CBM</span>
                     </div>
@@ -481,12 +493,16 @@
                         <input type="number" id="length-1" step="0.01" min="0" required placeholder="длина">
                         <input type="number" id="height-1" step="0.01" min="0" required placeholder="высота">
                         <input type="number" id="width-1" step="0.01" min="0" required placeholder="ширина">
-                        <button type="submit">Рассчитать</button>
-                        <p id="result-CBM" style="color: beige;"></p>
+                        <input type="number" id="result-CBM" placeholder="Стоимость" disabled>
+                        <button type="submit" class="calc-submit">Рассчитать</button>
                     </form>
+                    <a class="calc-link" href="#sixth-block">Оставить заявку</a>
+                    <p class="calc-text">*Расчёт является ориентировочным, для точной ставки просим направлять заявку в
+                        форме обратной
+                        связи.</p>
                     <script src="./scripts/formula-CBM.js"></script>
                 </div>
-                <div class="item-fifth-block item-fifth-block-first-three">
+                <div class="item-fifth-block item-fifth-block-first-three" id="LDM">
                     <div class="big-num-fifth-block">
                         <span>LDM</span>
                     </div>
@@ -495,34 +511,33 @@
                         <input type="number" step="0.01" min="0" required placeholder="вес">
                         <input type="number" step="0.01" min="0" required placeholder="высота">
                         <input type="number" step="0.01" min="0" required placeholder="ширина">
-                        <input type="number" step="0.01" min="0" required placeholder="стоимость">
-                        <p style="color: beige;" class="fifth-text-p">Паллет: 2</p>
-                        <button type="submit">Рассчитать</button>
-                        <p id="result-LDM" style="color: beige;"></p>
+                        <input type="number" step="1" min="0" required placeholder="паллеты">
+                        <input type="number" id="result-LDM" placeholder="Стоимость" disabled>
+                        <button type="submit" class="calc-submit">Рассчитать</button>
                     </form>
+                    <a class="calc-link" href="#sixth-block">Оставить заявку</a>
+                    <p class="calc-text">*Расчёт является ориентировочным, для точной ставки просим направлять заявку в
+                        форме обратной
+                        связи.</p>
                     <script src="./scripts/formula-LDM.js"></script>
                 </div>
-                <div class="item-fifth-block item-fifth-block-first-three">
+                <div class="item-fifth-block item-fifth-block-first-three" id="KG">
                     <div class="big-num-fifth-block">
                         <span>KG</span>
                     </div>
                     <form id="calc-form-3">
                         <input type="number" id="weight-3" step="0.01" min="0" required placeholder="вес">
-                        <p style="color: beige;" class="fifth-text-p">Паллет: 2</p>
-                        <button type="submit">Рассчитать</button>
-                        <p id="result-KG" style="color: beige;"></p>
+                        <input type="number" step="1" min="0" required placeholder="паллеты">
+                        <input type="number" id="result-KG" placeholder="Стоимость" disabled>
+                        <button type="submit" class="calc-submit">Рассчитать</button>
                     </form>
+                    <a class="calc-link" href="#sixth-block">Оставить заявку</a>
+                    <p class="calc-text">*Расчёт является ориентировочным, для точной ставки просим направлять заявку в
+                        форме обратной
+                        связи.</p>
                     <script src="./scripts/formula-KG.js"></script>
                 </div>
-                <div class="item-fifth-block item-fifth-block-last-three">
-
-                </div>
-                <div class="item-fifth-block item-fifth-block-last-three">
-
-                </div>
-                <div class="item-fifth-block item-fifth-block-last-three">
-
-                </div>
+                <script src="./scripts/calcButtonsHandler.js"></script>
             </div>
         </div>
         <!-- Шестой блок  -->

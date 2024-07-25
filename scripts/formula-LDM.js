@@ -5,5 +5,5 @@ document.getElementById('calc-form-2').addEventListener('submit', function (even
 
     let result = length * 1200;
 
-    document.getElementById('result-LDM').textContent = "Итоговая стоимость: " + parseInt(result);
+    document.getElementById('result-LDM').value = parseInt(result);
 });
