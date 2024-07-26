@@ -4611,12 +4611,13 @@ p#result-KG {
     }
 
     #background-video {
+        margin-top: 295px;
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
-        height: 78%;
-        object-fit: cover;
+        height: auto;
+        object-fit: contain;
         z-index: -1;
     }
 
@@ -4630,7 +4631,7 @@ p#result-KG {
     }
 
     #second-block {
-        margin-top: -290px;
+        margin-top: -650px;
         position: relative;
         width: auto;
         min-height: 778px;
@@ -5736,12 +5737,13 @@ p#result-KG {
     }
 
     #background-video {
+        margin-top: 295px;
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
-        height: 73%;
-        object-fit: cover;
+        height: auto;
+        object-fit: contain;
         z-index: -1;
     }
 
@@ -5755,7 +5757,7 @@ p#result-KG {
     }
 
     #second-block {
-        margin-top: -290px;
+        margin-top: -590px;
         position: relative;
         width: auto;
         min-height: 778px;
