@@ -1017,7 +1017,7 @@ p#result-KG {
     }
 
     .item-fifth-block-first-three {
-        height: auto;
+        height: auto !important;
     }
 
     .big-num-fifth-block {
@@ -1409,6 +1409,10 @@ p#result-KG {
         border-radius: 9px;
         border: 1px solid #068ABE;
         transition: background-color 500ms linear;
+    }
+
+    .item-fifth-block-first-three {
+        height: auto !important;
     }
 
     #button-first-block span {
@@ -4408,6 +4412,22 @@ p#result-KG {
         height: auto;
     }
 
+    #calcs {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 10px; /* Отступ между кнопками */
+        justify-content: space-around; /* Выравнивание */
+    }
+
+    .calc-button {
+        flex: 1; /* Равномерное распределение кнопок по ширине */
+    }
+
+    .calc-button button {
+        width: 100%; 
+    }
+
     .item-fifth-block {
         width: 350px;
         border-radius: 9px;
@@ -5010,6 +5030,10 @@ p#result-KG {
         transition: fill 0.6s ease-in;
     }
 
+    .item-fifth-block-first-three {
+        height: auto !important;
+    }
+
     @keyframes rotateArrow {
         from {
             transform: rotate(0deg);
@@ -5530,6 +5554,22 @@ p#result-KG {
         gap: 40px 20px;
     }
 
+    #calcs {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 10px; /* Отступ между кнопками */
+        justify-content: space-around; /* Выравнивание */
+    }
+
+    .calc-button {
+        flex: 1; /* Равномерное распределение кнопок по ширине */
+    }
+
+    .calc-button button {
+        width: 100%; 
+    }
+
     .item-fifth-block {
         width: 400px;
         border-radius: 9px;
@@ -5842,6 +5882,10 @@ p#result-KG {
 
     #first-block-container {
         height: 1375px;
+    }
+
+    .item-fifth-block-first-three {
+        height: auto !important;
     }
 
     #blur-elem-first {
@@ -6651,6 +6695,22 @@ p#result-KG {
         height: 100%;
         padding: 15px;
         gap: 40px 20px;
+    }
+
+    #calcs {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 10px; /* Отступ между кнопками */
+        justify-content: space-around; /* Выравнивание */
+    }
+
+    .calc-button {
+        flex: 1; /* Равномерное распределение кнопок по ширине */
+    }
+
+    .calc-button button {
+        width: 100%; 
     }
 
     .item-fifth-block {
