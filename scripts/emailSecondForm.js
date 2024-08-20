@@ -4,14 +4,14 @@ emailjs.init("dlyM-U-TagMwQoije");
 // Функция для отправки данных на почту
 function sendEmail2() {
     // Получение данных из формы
-    var addressFrom = document.querySelector('input[name="21"]').value;
-    var addressTo = document.querySelector('input[name="22"]').value;
-    var weight = document.querySelector('input[name="23"]').value;
-    var dimensions = document.querySelector('input[name="24"]').value;
-    var cargoType = document.querySelector('input[name="25"]').value;
+    var addressFrom = null;
+    var addressTo = null;
+    var weight = null;
+    var dimensions = null;
+    var cargoType = null;
     var lastName = document.querySelector('input[name="26"]').value;
     var firstName = document.querySelector('input[name="27"]').value;
-    var price = document.querySelector('input[name="28"]').value;
+    var price = null;
 
     // Отправка данных на почту
     emailjs.send("service_gx0xo5q", "template_s4beto9", {
