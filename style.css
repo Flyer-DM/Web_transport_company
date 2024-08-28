@@ -3081,13 +3081,12 @@ p#result-KG {
     .six_small_text {
         height: 25.76px;
         font-family: 'Lato', sans-serif;
-        font-size: 20px;
+        font-size: 12px;
         font-weight: 400;
         line-height: 22.4px;
         letter-spacing: 0.47999998927116394px;
         color: #001C47;
         margin-left: 10%;
-        margin-bottom: 3%;
         margin-right: 10%;
         margin-bottom: 25px;
     }
@@ -3135,12 +3134,17 @@ p#result-KG {
         background-color: #FFF;
     }
 
+    .six_small_text_second {
+        margin-top: 150px;
+    }
+
     .angry-grid-3 {
         display: flex;
         flex-wrap: wrap;
         align-items: stretch;
         gap: 0px;
         height: 100%;
+        justify-content: center;
     }
 
 
@@ -3152,7 +3156,8 @@ p#result-KG {
         grid-row-end: 2;
         grid-column-end: 2;
 
-        margin: auto;
+        display: flex;
+        justify-content: center;
 
     }
 
@@ -3164,17 +3169,19 @@ p#result-KG {
         grid-row-end: 2;
         grid-column-end: 3;
 
-        margin: auto;
+        display: flex;
+        justify-content: center;
     }
 
     .seven_big_bg_1 {
         background-color: #001A47;
         width: 54%;
+        height: auto;
         border-radius: 50px;
         transition: background-color 400ms ease-in;
         margin-bottom: 50px;
-        margin-left: 8%;
-        margin-right: 10%;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .seven_big_bg_1:hover {
@@ -3204,11 +3211,11 @@ p#result-KG {
     .seven_big_bg_2 {
         background-color: #008ABE26;
         width: 54%;
-        height: 540px;
+        height: auto;
 
         border-radius: 50px;
-        margin-left: 8%;
-        margin-right: 10%;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .big-text-seven-1 {
@@ -4274,6 +4281,7 @@ p#result-KG {
         align-items: stretch;
         gap: 0px;
         height: 100%;
+        justify-content: center;
     }
 
 
@@ -4285,7 +4293,8 @@ p#result-KG {
         grid-row-end: 2;
         grid-column-end: 2;
 
-        margin: auto;
+        display: flex;
+        justify-content: center;
 
     }
 
@@ -4297,7 +4306,8 @@ p#result-KG {
         grid-row-end: 2;
         grid-column-end: 3;
 
-        margin: auto;
+        display: flex;
+        justify-content: center;
     }
 
     .seven_big_bg_1 {
@@ -4306,7 +4316,8 @@ p#result-KG {
         border-radius: 50px;
         transition: background-color 400ms ease-in;
         margin-bottom: 50px;
-        margin-left: 8%;
+        margin-left: 0;
+        height: auto;
     }
 
     .seven_big_bg_1:hover {
@@ -4339,7 +4350,7 @@ p#result-KG {
         height: 540px;
 
         border-radius: 50px;
-        margin-left: 8%;
+        margin-left: 0;
     }
 
     .big-text-seven-1 {
@@ -6588,7 +6599,8 @@ p#result-KG {
         grid-row-end: 2;
         grid-column-end: 3;
 
-        margin: auto;
+        display: flex;
+        justify-content: center;
     }
 
     .seven_big_bg_1 {
@@ -6626,9 +6638,8 @@ p#result-KG {
 
     .seven_big_bg_2 {
         background-color: #008ABE26;
-        width: 110%;
+        width: 85%;
         height: 520px;
-        margin-left: -5%;
 
         border-radius: 50px;
     }
